@@ -1,0 +1,8 @@
+﻿  singleton.cpp
+d:\gitwork\singleton\singleton\singleton\singleton.cpp(298): warning C4018: “<”: 有符号/无符号不匹配
+d:\gitwork\singleton\singleton\singleton\singleton.cpp(461): error C2440: “默认参数”: 无法从“const char [1]”转换为“char *”
+  d:\gitwork\singleton\singleton\singleton\singleton.cpp(461): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\gitwork\singleton\singleton\singleton\singleton.cpp(466): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\gitwork\singleton\singleton\singleton\singleton.cpp(527): error C2664: “String::String(const String &)”: 无法将参数 1 从“const char [6]”转换为“char *”
+  d:\gitwork\singleton\singleton\singleton\singleton.cpp(527): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
